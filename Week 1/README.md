@@ -1,17 +1,15 @@
-# profile_app
+# Profile App
 
-A new Flutter project.
+A Flutter application developed as part of the first task for the Summer 2026 Flutter Learning Program.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Customized application name & icon
+- Personal portfolio aspired home screen
 
-A few resources to get you started if this is your first Flutter project:
+## 📚 Learning Outcomes
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter Asset Management 
+- Customization of Android and iOS application settings
+- Managing Flutter projects using Git and GitHub
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
