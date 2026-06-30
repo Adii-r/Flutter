@@ -45,6 +45,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_flavorizr: ^2.5.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -88,3 +90,33 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+  flavorizr:
+    app:
+      android:
+        flavorDimensions: "default"
+
+    flavors:
+      dev:
+        app:
+          name: "ProfileApp - Dev"
+        android:
+          applicationId: "com.example.profile_app.dev"
+        ios:
+          bundleId: "com.example.profile_app.dev"
+
+      staging:
+        app:
+          name: "ProfileApp - Staging"
+        android:
+          applicationId: "com.example.profile_app.staging"
+        ios:
+          bundleId: "com.example.profile_app.staging"
+
+      prod:
+        app:
+          name: "ProfileApp - Prod"
+        android:
+          applicationId: "com.example.profile_app"
+        ios:
+          bundleId: "com.example.profile_app"
